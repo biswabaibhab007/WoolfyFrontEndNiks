@@ -13,7 +13,7 @@ const Nav = () => {
       <ul className="flex justify-end gap-9">
           {!auth ? (
             <>
-              <p className=""><Link Link to="/signup">SignUp </Link></p>
+              <p><Link Link to="/signup">SignUp </Link></p>
               <p><Link to="/login">Login</Link></p>
             </>
           ) : (
